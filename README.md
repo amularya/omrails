@@ -5,4 +5,4 @@ This is the sample application for
 
 by [Mattan Griffel](http://mattangriffel.com)
 
-#MY BROTHER smells like a fart
+#good times
