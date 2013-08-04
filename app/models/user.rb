@@ -7,4 +7,7 @@ class User < ActiveRecord::Base
 
   # attr_accessible :title, :body
   attr_accessible :name, :email, :password, :password_confirmation, :remember_me, :provider, :uid, :as => [:default, :admin]
+
+
+  has_many :pins, :dependent => :destroy
 end
